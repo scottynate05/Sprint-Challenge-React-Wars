@@ -27,20 +27,16 @@ const CharacterCard = (props) => {
                         <CardBody>
                             <h2>{character.name}</h2>
                         <CardText>
-                            <span>Gender:</span>
-                            <span>{character.gender}</span>
+                            <div>Gender: {character.gender}</div>
                         </CardText>
                         <CardText>
-                            <span>Species:</span>
-                            <span>{character.species}</span>
+                            <div>Species: {character.species}</div>
                         </CardText>
                         <CardText>
-                            <span>Location:</span>
-                            <span>{character.location.name}</span>
+                            <div>Location: {character.location.name}</div>
                         </CardText>
                         <CardText>
-                            <span>Status:</span>
-                            <span>{character.status}</span>
+                            <div>Current Status: {character.status}</div>
                         </CardText>
                         </CardBody>
                     </ContColor>
